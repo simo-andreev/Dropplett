@@ -11,21 +11,7 @@
         <item name="android:drawableEnd">@drawable/ic_add</item>
         <item name="android:drawableBottom">@drawable/ic_cancel</item>
         <item name="android:rotation">40</item>
+        <item name="android:clickable">true</item>
         <item name="android:lines">1</item>
-    </style>
-
-    <style name="ClickMask">
-        <item name="android:layout_rowWeight">1</item>
-        <item name="android:layout_columnWeight">1</item>
-        <item name="android:layout_margin">4dp</item>
-        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
-    </style>
-
-    <style name="ClickGrid">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">0dp</item>
-        <item name="android:columnCount">2</item>
-        <item name="android:orientation">horizontal</item>
-        <item name="android:rowCount">2</item>
     </style>
 </resources>

@@ -13,46 +13,6 @@
         android:layout_height="match_parent"
         app:boxedEdges="all">
 
-        <include
-            android:id="@+id/clickGrid0"
-            layout="@layout/click_grid"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="@id/count0"
-            app:layout_constraintEnd_toEndOf="@id/count0"
-            app:layout_constraintStart_toStartOf="@id/count0"
-            app:layout_constraintTop_toTopOf="@id/count0" />
-
-        <include
-            android:id="@+id/clickGrid1"
-            layout="@layout/click_grid"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="@id/count1"
-            app:layout_constraintEnd_toEndOf="@id/count1"
-            app:layout_constraintStart_toStartOf="@id/count1"
-            app:layout_constraintTop_toTopOf="@id/count1" />
-
-        <include
-            android:id="@+id/clickGrid2"
-            layout="@layout/click_grid"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="@id/count2"
-            app:layout_constraintEnd_toEndOf="@id/count2"
-            app:layout_constraintStart_toStartOf="@id/count2"
-            app:layout_constraintTop_toTopOf="@id/count2" />
-
-        <include
-            android:id="@+id/clickGrid3"
-            layout="@layout/click_grid"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="@id/count3"
-            app:layout_constraintEnd_toEndOf="@id/count3"
-            app:layout_constraintStart_toStartOf="@id/count3"
-            app:layout_constraintTop_toTopOf="@id/count3" />
-
         <TextView
             android:id="@+id/count0"
             style="@style/HpCounter"
@@ -84,7 +44,6 @@
         <TextView
             android:id="@+id/count3"
             style="@style/HpCounter"
-            android:padding="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/count2"
